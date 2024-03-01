@@ -1,0 +1,267 @@
+2024-02-27 23:23:45,764 INFO    StreamThr :33500 [internal.py:wandb_internal():87] W&B internal server running at pid: 33500, started at: 2024-02-27 23:23:45.622429
+2024-02-27 23:23:45,768 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status
+2024-02-27 23:23:45,798 INFO    WriterThread:33500 [datastore.py:open_for_write():85] open: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/run-e2kbma87.wandb
+2024-02-27 23:23:45,804 DEBUG   SenderThread:33500 [sender.py:send():336] send: header
+2024-02-27 23:23:45,921 DEBUG   SenderThread:33500 [sender.py:send():336] send: run
+2024-02-27 23:23:46,275 INFO    SenderThread:33500 [dir_watcher.py:__init__():216] watching files in: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files
+2024-02-27 23:23:46,276 INFO    SenderThread:33500 [sender.py:_start_run_threads():1067] run started: e2kbma87 with start time 1709094225.774286
+2024-02-27 23:23:46,276 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: summary_record
+2024-02-27 23:23:46,276 INFO    SenderThread:33500 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2024-02-27 23:23:46,282 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: check_version
+2024-02-27 23:23:46,283 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: check_version
+2024-02-27 23:23:46,400 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: run_start
+2024-02-27 23:23:46,424 DEBUG   HandlerThread:33500 [system_info.py:__init__():31] System info init
+2024-02-27 23:23:46,424 DEBUG   HandlerThread:33500 [system_info.py:__init__():46] System info init done
+2024-02-27 23:23:46,424 INFO    HandlerThread:33500 [system_monitor.py:start():151] Starting system monitor
+2024-02-27 23:23:46,425 INFO    SystemMonitor:33500 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-02-27 23:23:46,425 INFO    HandlerThread:33500 [system_monitor.py:probe():172] Collecting system info
+2024-02-27 23:23:46,425 INFO    SystemMonitor:33500 [interfaces.py:start():168] Started cpu
+2024-02-27 23:23:46,425 DEBUG   HandlerThread:33500 [system_info.py:probe():195] Probing system
+2024-02-27 23:23:46,425 INFO    SystemMonitor:33500 [interfaces.py:start():168] Started disk
+2024-02-27 23:23:46,426 INFO    SystemMonitor:33500 [interfaces.py:start():168] Started gpuapple
+2024-02-27 23:23:46,426 INFO    SystemMonitor:33500 [interfaces.py:start():168] Started memory
+2024-02-27 23:23:46,430 INFO    SystemMonitor:33500 [interfaces.py:start():168] Started network
+2024-02-27 23:23:46,443 DEBUG   HandlerThread:33500 [system_info.py:_probe_git():180] Probing git
+2024-02-27 23:23:46,483 DEBUG   HandlerThread:33500 [system_info.py:_probe_git():188] Probing git done
+2024-02-27 23:23:46,498 DEBUG   HandlerThread:33500 [system_info.py:probe():241] Probing system done
+2024-02-27 23:23:46,498 DEBUG   HandlerThread:33500 [system_monitor.py:probe():181] {'os': 'macOS-14.2.1-arm64-arm-64bit', 'python': '3.11.7', 'heartbeatAt': '2024-02-28T04:23:46.426044', 'startedAt': '2024-02-28T04:23:38.068289', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:sterfd/ARENA.git', 'commit': 'c8d5c091566158ceff35a970b36f6c1c10293c2b'}, 'email': 'stefhwin@gmail.com', 'root': '/Users/nakamata/Dropbox/RC/ARENA', 'host': 'Stephanies-MacBook-Air-2.local', 'username': 'nakamata', 'executable': '/Users/nakamata/miniconda3/envs/arena/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 228.27386474609375, 'used': 126.14191436767578}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-02-27 23:23:46,498 INFO    HandlerThread:33500 [system_monitor.py:probe():182] Finished collecting system info
+2024-02-27 23:23:46,498 INFO    HandlerThread:33500 [system_monitor.py:probe():185] Publishing system info
+2024-02-27 23:23:46,498 DEBUG   HandlerThread:33500 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-27 23:23:46,499 DEBUG   HandlerThread:33500 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-27 23:23:46,499 DEBUG   HandlerThread:33500 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-02-27 23:23:47,283 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/conda-environment.yaml
+2024-02-27 23:23:47,298 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/requirements.txt
+2024-02-27 23:23:47,298 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/wandb-summary.json
+2024-02-27 23:24:08,532 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/conda-environment.yaml
+2024-02-27 23:24:08,744 DEBUG   HandlerThread:33500 [system_info.py:_save_conda():86] Saving conda packages done
+2024-02-27 23:24:08,811 INFO    HandlerThread:33500 [system_monitor.py:probe():187] Finished publishing system info
+2024-02-27 23:24:09,391 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:09,415 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:09,424 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:09,424 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:09,424 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:09,424 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:09,424 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:09,424 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:09,433 DEBUG   SenderThread:33500 [sender.py:send():336] send: files
+2024-02-27 23:24:09,438 INFO    SenderThread:33500 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2024-02-27 23:24:09,576 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/wandb-metadata.json
+2024-02-27 23:24:10,365 INFO    wandb-upload_0:33500 [upload_job.py:push():138] Uploaded file /var/folders/z_/b810_k3d3psf_5j00kyq1q0m0000gn/T/tmppa0c1mpgwandb/ctfl10xf-wandb-metadata.json
+2024-02-27 23:24:10,494 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-27 23:24:10,610 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: stop_status
+2024-02-27 23:24:11,132 DEBUG   SenderThread:33500 [sender.py:send():336] send: telemetry
+2024-02-27 23:24:12,141 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:14,598 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/output.log
+2024-02-27 23:24:16,606 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/output.log
+2024-02-27 23:24:17,289 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:17,606 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/config.yaml
+2024-02-27 23:24:22,655 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:25,520 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:25,523 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:27,697 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:30,545 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:32,751 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:35,612 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:37,798 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:40,765 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:42,818 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:45,992 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:46,441 DEBUG   SystemMonitor:33500 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-02-27 23:24:46,513 DEBUG   SenderThread:33500 [sender.py:send():336] send: telemetry
+2024-02-27 23:24:46,514 DEBUG   SenderThread:33500 [sender.py:send():336] send: stats
+2024-02-27 23:24:48,616 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:49,890 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/config.yaml
+2024-02-27 23:24:51,030 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:53,944 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:24:56,081 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:24:59,013 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:01,145 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:04,002 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:06,204 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:09,035 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:11,368 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:14,063 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:16,364 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:16,579 DEBUG   SenderThread:33500 [sender.py:send():336] send: stats
+2024-02-27 23:25:19,605 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:21,408 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:24,622 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:26,440 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:29,658 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:31,464 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:34,728 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:36,618 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:39,746 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:41,625 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:44,774 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:46,589 DEBUG   SenderThread:33500 [sender.py:send():336] send: stats
+2024-02-27 23:25:46,714 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:50,641 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:51,759 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:25:55,664 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:25:56,811 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:00,706 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:01,866 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:05,732 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:06,915 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:10,787 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:11,975 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:15,820 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:16,610 DEBUG   SenderThread:33500 [sender.py:send():336] send: stats
+2024-02-27 23:26:17,000 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:21,673 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:22,103 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:26,710 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:27,169 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:31,739 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:32,180 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:36,865 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:37,245 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:41,870 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:42,287 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:46,670 DEBUG   SenderThread:33500 [sender.py:send():336] send: stats
+2024-02-27 23:26:47,342 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:47,702 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:52,418 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:52,727 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:26:57,422 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:26:57,741 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:27:02,466 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:27:02,750 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:27:07,580 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:27:07,766 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:27:12,668 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:27:12,675 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-27 23:27:12,794 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:27:15,109 DEBUG   SenderThread:33500 [sender.py:send():336] send: telemetry
+2024-02-27 23:27:15,145 DEBUG   SenderThread:33500 [sender.py:send():336] send: exit
+2024-02-27 23:27:15,147 INFO    SenderThread:33500 [sender.py:send_exit():559] handling exit code: 0
+2024-02-27 23:27:15,189 INFO    SenderThread:33500 [sender.py:send_exit():561] handling runtime: 208
+2024-02-27 23:27:15,283 INFO    SenderThread:33500 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2024-02-27 23:27:15,291 INFO    SenderThread:33500 [sender.py:send_exit():567] send defer
+2024-02-27 23:27:15,318 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:15,319 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-27 23:27:15,331 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:15,332 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 0
+2024-02-27 23:27:15,333 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 1
+2024-02-27 23:27:15,333 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:15,333 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-27 23:27:15,333 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:15,337 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 1
+2024-02-27 23:27:15,337 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 2
+2024-02-27 23:27:15,338 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:15,338 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-27 23:27:15,338 INFO    HandlerThread:33500 [system_monitor.py:finish():161] Stopping system monitor
+2024-02-27 23:27:15,363 DEBUG   SystemMonitor:33500 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-02-27 23:27:15,364 DEBUG   SystemMonitor:33500 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-02-27 23:27:15,370 INFO    HandlerThread:33500 [interfaces.py:finish():175] Joined cpu
+2024-02-27 23:27:15,386 INFO    HandlerThread:33500 [interfaces.py:finish():175] Joined disk
+2024-02-27 23:27:15,387 INFO    HandlerThread:33500 [interfaces.py:finish():175] Joined gpuapple
+2024-02-27 23:27:15,388 INFO    HandlerThread:33500 [interfaces.py:finish():175] Joined memory
+2024-02-27 23:27:15,388 INFO    HandlerThread:33500 [interfaces.py:finish():175] Joined network
+2024-02-27 23:27:15,392 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:15,393 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 2
+2024-02-27 23:27:15,393 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 3
+2024-02-27 23:27:15,393 DEBUG   SenderThread:33500 [sender.py:send():336] send: stats
+2024-02-27 23:27:15,397 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:15,398 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-27 23:27:15,400 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:15,400 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 3
+2024-02-27 23:27:15,400 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 4
+2024-02-27 23:27:15,400 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:15,400 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-27 23:27:15,407 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:15,407 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 4
+2024-02-27 23:27:15,407 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 5
+2024-02-27 23:27:15,407 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:15,407 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-27 23:27:15,409 DEBUG   SenderThread:33500 [sender.py:send():336] send: summary
+2024-02-27 23:27:15,412 INFO    SenderThread:33500 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2024-02-27 23:27:15,412 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:15,412 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 5
+2024-02-27 23:27:15,412 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 6
+2024-02-27 23:27:15,412 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:15,412 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-27 23:27:15,414 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:15,414 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 6
+2024-02-27 23:27:15,421 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: status_report
+2024-02-27 23:27:16,084 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/output.log
+2024-02-27 23:27:16,165 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 23:27:16,291 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/wandb-summary.json
+2024-02-27 23:27:16,294 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 7
+2024-02-27 23:27:16,295 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: poll_exit
+2024-02-27 23:27:16,295 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:16,303 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-27 23:27:16,308 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:16,308 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 7
+2024-02-27 23:27:17,090 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/config.yaml
+2024-02-27 23:27:17,172 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 23:27:18,000 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 8
+2024-02-27 23:27:18,002 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: poll_exit
+2024-02-27 23:27:18,002 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:18,006 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-27 23:27:18,006 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:18,006 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 8
+2024-02-27 23:27:18,013 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 9
+2024-02-27 23:27:18,014 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:18,014 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-27 23:27:18,015 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:18,015 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 9
+2024-02-27 23:27:18,015 INFO    SenderThread:33500 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-02-27 23:27:18,093 INFO    Thread-13 :33500 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/output.log
+2024-02-27 23:27:18,096 INFO    SenderThread:33500 [dir_watcher.py:finish():392] scan: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files
+2024-02-27 23:27:18,096 INFO    SenderThread:33500 [dir_watcher.py:finish():406] scan save: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/requirements.txt requirements.txt
+2024-02-27 23:27:18,098 INFO    SenderThread:33500 [dir_watcher.py:finish():406] scan save: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/output.log output.log
+2024-02-27 23:27:18,098 INFO    SenderThread:33500 [dir_watcher.py:finish():406] scan save: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/config.yaml config.yaml
+2024-02-27 23:27:18,098 INFO    SenderThread:33500 [dir_watcher.py:finish():406] scan save: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/wandb-summary.json wandb-summary.json
+2024-02-27 23:27:18,098 INFO    SenderThread:33500 [dir_watcher.py:finish():406] scan save: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/conda-environment.yaml conda-environment.yaml
+2024-02-27 23:27:18,098 INFO    SenderThread:33500 [dir_watcher.py:finish():406] scan save: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/wandb-metadata.json wandb-metadata.json
+2024-02-27 23:27:18,099 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 10
+2024-02-27 23:27:18,110 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:18,111 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-27 23:27:18,145 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:18,265 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 23:27:18,424 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 10
+2024-02-27 23:27:18,425 INFO    SenderThread:33500 [file_pusher.py:finish():162] shutting down file pusher
+2024-02-27 23:27:18,428 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: poll_exit
+2024-02-27 23:27:18,491 INFO    wandb-upload_4:33500 [upload_job.py:push():138] Uploaded file /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/conda-environment.yaml
+2024-02-27 23:27:18,589 INFO    wandb-upload_2:33500 [upload_job.py:push():138] Uploaded file /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/config.yaml
+2024-02-27 23:27:18,604 INFO    wandb-upload_3:33500 [upload_job.py:push():138] Uploaded file /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/wandb-summary.json
+2024-02-27 23:27:18,619 INFO    wandb-upload_0:33500 [upload_job.py:push():138] Uploaded file /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/requirements.txt
+2024-02-27 23:27:18,632 INFO    wandb-upload_1:33500 [upload_job.py:push():138] Uploaded file /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/files/output.log
+2024-02-27 23:27:18,897 INFO    Thread-12 (_thread_body):33500 [sender.py:transition_state():587] send defer: 11
+2024-02-27 23:27:18,898 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:18,898 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-27 23:27:18,898 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:18,898 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 11
+2024-02-27 23:27:18,898 INFO    SenderThread:33500 [file_pusher.py:join():167] waiting for file pusher
+2024-02-27 23:27:18,898 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 12
+2024-02-27 23:27:18,898 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:18,898 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-27 23:27:18,899 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:18,899 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 12
+2024-02-27 23:27:19,106 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 13
+2024-02-27 23:27:19,115 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:19,115 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-27 23:27:19,115 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:19,115 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 13
+2024-02-27 23:27:19,116 INFO    SenderThread:33500 [sender.py:transition_state():587] send defer: 14
+2024-02-27 23:27:19,127 DEBUG   SenderThread:33500 [sender.py:send():336] send: final
+2024-02-27 23:27:19,127 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: defer
+2024-02-27 23:27:19,208 DEBUG   SenderThread:33500 [sender.py:send():336] send: footer
+2024-02-27 23:27:19,209 INFO    HandlerThread:33500 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-27 23:27:19,209 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: defer
+2024-02-27 23:27:19,209 INFO    SenderThread:33500 [sender.py:send_request_defer():583] handle sender defer: 14
+2024-02-27 23:27:19,216 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-27 23:27:19,216 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: poll_exit
+2024-02-27 23:27:19,221 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: server_info
+2024-02-27 23:27:19,226 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-27 23:27:19,228 DEBUG   SenderThread:33500 [sender.py:send_request():363] send_request: server_info
+2024-02-27 23:27:19,234 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-27 23:27:19,531 DEBUG   HandlerThread:33500 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-27 23:27:19,549 INFO    HandlerThread:33500 [handler.py:finish():841] shutting down handler
+2024-02-27 23:27:20,233 INFO    WriterThread:33500 [datastore.py:close():299] close: /Users/nakamata/Dropbox/RC/ARENA/chapter0_fundamentals/exercises/part3_optimization/wandb/run-20240227_232338-e2kbma87/run-e2kbma87.wandb
+2024-02-27 23:27:20,419 INFO    SenderThread:33500 [sender.py:finish():1493] shutting down sender
+2024-02-27 23:27:20,422 INFO    SenderThread:33500 [file_pusher.py:finish():162] shutting down file pusher
+2024-02-27 23:27:20,422 INFO    SenderThread:33500 [file_pusher.py:join():167] waiting for file pusher
