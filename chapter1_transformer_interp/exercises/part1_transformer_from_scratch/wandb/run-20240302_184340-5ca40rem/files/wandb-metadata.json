@@ -1,0 +1,33 @@
+{
+    "os": "macOS-14.2.1-arm64-arm-64bit",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-03-02T23:43:41.537008",
+    "startedAt": "2024-03-02T23:43:40.874274",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:sterfd/ARENA.git",
+        "commit": "52af29671cd20255edacd9967e593c63d51374d4"
+    },
+    "email": "stefhwin@gmail.com",
+    "root": "/Users/nakamata/Dropbox/RC/ARENA",
+    "host": "Stephanies-MacBook-Air-2.local",
+    "username": "nakamata",
+    "executable": "/Users/nakamata/miniconda3/envs/arena/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 128.88103485107422
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
