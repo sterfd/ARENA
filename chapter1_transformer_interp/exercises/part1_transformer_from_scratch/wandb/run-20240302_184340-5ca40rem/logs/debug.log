@@ -26,3 +26,4 @@ config: {'wandb_project': 'day1-demotransformer', 'wandb_name': None}
 2024-03-02 18:43:57,315 INFO    MainThread:51875 [wandb_run.py:_redirect():2034] Wrapping output streams.
 2024-03-02 18:43:57,318 INFO    MainThread:51875 [wandb_run.py:_redirect():2059] Redirects installed.
 2024-03-02 18:43:57,329 INFO    MainThread:51875 [wandb_init.py:init():817] run started, returning control to user process
+2024-03-05 09:14:23,757 WARNING MsgRouterThr:51875 [router.py:message_loop():77] message_loop has been closed
